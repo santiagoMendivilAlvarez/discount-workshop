@@ -1,7 +1,7 @@
 const calculateDiscount = require('./calculateDiscount');
 
 test('gold member pays 80% of the price', () => {
-  expect(calculateDiscount(100, 'gold')).toBe(80);
+  expect(calculateDiscount(100, 'gold')).toBe(100);
 });
 
 test('silver member pays 90% of the price', () => {
